@@ -81,7 +81,7 @@ public class WindowBlock extends JFrame implements KeyListener{
 		{
 			gameWindow.frameSpeed = 0;
 		}
-		if(arg0.getKeyCode() == KeyEvent.VK_ENTER)
+		if(arg0.getKeyCode() == KeyEvent.VK_UP)
 		{
 			gameWindow.tryToMoveShape(10);
 		}
